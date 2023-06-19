@@ -1,14 +1,14 @@
 # Project 1
 # Learning to program and use outputs
-# Build the the Project 1 circuit and blink a LED
+# Build the Project 1 circuit and blink an LED
 
 # Challenge 1
 # Try changing the LED_On and LED_Off variables to change the blinking pattern
 
-#Challenge 2
+# Challenge 2
 # Replace the color LED with buzzer or white LED to try other outputs
 
-#Importing libraries
+# Importing libraries
 # Libraries are defined sets of code for specific uses
 # Here we want the sleep function for timing and GPIO for the Pi's pin from time import sleep
 import RPi.GPIO as GPIO
@@ -22,7 +22,7 @@ LED_Pin = 7 #the internal Pi pin number that goes to snap 7
 LED_On = .2 #duration of LED flash, seconds
 LED_Off = .1 #duration in between flashes, seconds
 
-#Setting up our pin
+# Setting up our pin
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(LED_Pin, GPIO.OUT, initial=GPIO.LOW) #Output pin, start off
 while True: #Looping over and over again
