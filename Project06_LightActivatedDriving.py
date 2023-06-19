@@ -1,7 +1,7 @@
 # Project 6
 # Learning to program, writing functions, using motor control outputs, adding loop complexity
 # Build the the Project 6 circuit and have the rover be controlled by ambient light
-# Turn down the ligth and point a flashlight at the rover to direct it
+# Turn down the light and point a flashlight at the rover to direct it
 
 #Challenge 1
 # Try changing the drive functions to switch the driving directions
